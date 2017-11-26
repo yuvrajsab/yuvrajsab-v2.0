@@ -1,0 +1,118 @@
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale; }
+
+.hr {
+  border: 1px solid #f44336;
+  width: 100px;
+  margin: 10px auto 30px; }
+
+.logo {
+  width: 40px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.skew-box {
+  background-color: black;
+  width: 100%;
+  margin-top: -15%;
+  height: 500px;
+  position: absolute;
+  z-index: -1;
+  -webkit-transform: skewY(-6deg);
+  -ms-transform: skewY(-6deg);
+  transform: skewY(-6deg); }
+
+#hero-section {
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  padding: 30px; }
+  #hero-section header {
+    position: relative; }
+  #hero-section .know-more {
+    margin: 50px; }
+    #hero-section .know-more .learn-more-btn {
+      margin: 20px; }
+    #hero-section .know-more h5 {
+      text-transform: uppercase; }
+    #hero-section .know-more #name {
+      text-transform: uppercase;
+      letter-spacing: 15px; }
+
+#who-i-am {
+  padding: 40px 0; }
+  #who-i-am .who-content {
+    padding: 5px 10px;
+    height: auto; }
+
+#portfolio {
+  padding: 40px 0; }
+  #portfolio .project {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    #portfolio .project img {
+      width: 100%;
+      height: auto;
+      border: 2px solid #eee; }
+
+#contact-me {
+  padding: 40px 0; }
+
+.msg {
+  padding: 10px; }
+  .msg h5 {
+    text-transform: uppercase; }
+
+#footer {
+  padding: 10px; }
+
+#s-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 30; }
+
+.social {
+  width: 1.5rem;
+  margin-right: 30px; }
+
+.follow {
+  width: 1.6rem;
+  margin: 0 10px; }
+  .follow:hover {
+    -webkit-transform: translateY(8px);
+    -ms-transform: translateY(8px);
+    transform: translateY(8px);
+    -webkit-transition: -webkit-transform 200ms ease-in-out;
+    transition: -webkit-transform 200ms ease-in-out;
+    -o-transition: transform 200ms ease-in-out;
+    transition: transform 200ms ease-in-out;
+    transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out; }
+
+@media screen and (max-width: 500px) {
+  .skew-box {
+    height: 300px; }
+  #who-i-am {
+    padding-top: 0; }
+  #hero-section .know-more {
+    margin-left: 0;
+    margin-right: 0; } }
+
+@media screen and (max-width: 800px) {
+  .skew-box {
+    height: 350px; }
+  #who-i-am {
+    padding-top: 0; } }
+
+.ys {
+  border-bottom: 2px solid #616161; }
