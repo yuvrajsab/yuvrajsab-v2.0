@@ -26,3 +26,10 @@ $(function() {
         }
     });
 });
+
+$(function() {
+  if ($(window).width() < 350) {
+    $("#btn-next-line").css("display","block");
+    $("#btn-next-line").css("margin","auto");
+  }
+});
