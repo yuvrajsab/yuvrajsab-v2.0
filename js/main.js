@@ -1,6 +1,9 @@
 $(function () {
-  if ($(window).width() < 514) {
+  if ($(window).width() < 750) {
     $('.onmob').removeClass('container');
+  }
+  else {
+    $('.onmob').addClass('container');
   }
   $("#s-top").click(function() {
   $("html, body").animate({ scrollTop: 0 }, "slow");
